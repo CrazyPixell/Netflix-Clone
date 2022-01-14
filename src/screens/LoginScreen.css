@@ -1,0 +1,9 @@
+.login-screen {
+  min-height: 100%;
+}
+
+.login-screen__divider {
+  width: 100%;
+  background-color: #333;
+  height: 0.8rem;
+}

@@ -1,0 +1,26 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.faq__title {
+  color: #fff;
+  font-size: 4.8rem;
+  margin-bottom: 3rem;
+}
+
+.faq__form {
+  width: 70%;
+}
+
+.faq__form-question {
+  margin-top: 2rem;
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}

@@ -1,0 +1,88 @@
+.sign-up {
+  max-width: 40rem;
+  padding: 5rem;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.sign-up > form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.sign-up > form > h2 {
+  font-size: 3.2rem;
+  align-self: start;
+}
+
+.sign-up__form-group > input {
+  width: 100%;
+  padding: 2rem;
+  background-color: #555;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.sign-up > form > input::placeholder {
+  font-size: 1.6rem;
+}
+
+.sign-up__form-group {
+  position: relative;
+}
+
+.sign-up__label {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #999;
+  transition: all 0.5s;
+  z-index: 3;
+}
+
+.sign-up__label--active {
+  top: 0;
+  font-size: 1.4rem;
+  transform: translateY(0);
+}
+
+.sign-up > form > button {
+  cursor: pointer;
+  background-color: var(--color-brand);
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem;
+  align-self: stretch;
+  border: none;
+  border-radius: 5px;
+}
+
+.sign-up > form > h4 {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up__new {
+  color: #888;
+}
+
+.sign-up__sign {
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.sign-up__sign:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

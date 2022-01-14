@@ -1,0 +1,20 @@
+.devices__img-box {
+  position: relative;
+}
+
+.devices__video-box {
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: absolute;
+  top: 47.6%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+
+.devices__video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

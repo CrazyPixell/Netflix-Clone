@@ -1,0 +1,101 @@
+.login-header {
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+}
+
+.login-header__upper {
+  position: fixed;
+  width: 100%;
+  height: 6rem;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+}
+
+.login-header__upper--black {
+  background-color: #111;
+}
+
+.login-header__logo {
+  width: 15rem;
+  object-fit: contain;
+}
+
+.login-header__actions {
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.login-header__language {
+  padding: 0.7rem 1.375rem;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  outline: 2px solid #fff;
+  color: #fff;
+}
+
+.login-header__language option {
+  background-color: #777;
+}
+
+.login-header__btn {
+  cursor: pointer;
+  background-color: var(--color-brand);
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.7rem;
+  width: 9rem;
+  font-size: 1.6rem;
+  border-radius: 3px;
+}
+
+.login-header__gradient {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.login-header__body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 95rem;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.login-header__body > h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.login-header__body > h2 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.login-header__body > p {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}

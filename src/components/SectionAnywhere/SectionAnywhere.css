@@ -1,0 +1,26 @@
+.anywhere__img-box {
+  position: relative;
+}
+
+.anywhere__img {
+  position: relative;
+  z-index: 10;
+}
+
+.anywhere__video-box {
+  width: 100%;
+  height: 100%;
+  max-width: 63%;
+  max-height: 47%;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.anywhere__video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
