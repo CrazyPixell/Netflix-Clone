@@ -8,7 +8,11 @@ const LoginScreenFooter = ({ language }) => {
           ? 'Все права на бренд Netflix принадлежат Netflix. Данный клон создан Антоном Жирковым для персонального обучения и использования в портфолио.'
           : 'All rights to Netflix brand belong to Netflix. This clone was made by Anton Zhirkov in learning purposes only and for use in personal portfolio'}
       </p>
-      <a className='login-footer__link' href='#'>
+      <a
+        className='login-footer__link'
+        href='https://github.com/CrazyPixell/Netflix-Clone'
+        target='_blank'
+      >
         {language === 'russian' ? 'Исходный код' : 'Source code'}
       </a>
     </footer>
